@@ -1,0 +1,123 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0;
+	padding:0;
+}
+header {
+	background: #eeeeee;
+}
+.container{
+	max-width:1200px;
+	margin: 0px auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.logoblock, .menublock, .hamburgerblock {
+	width: 50%;
+	height: 50px;
+	margin:10px 0;
+}
+.logo_title {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.logo {
+	display: inline-block;
+	height: 100%;
+	width: auto;
+	vertical-align: middle;
+}
+.menu {
+	margin: 0px;
+	list-style-type: none;
+	float: right;
+}
+.menu-list {
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.menu-font {
+	color: #333333;
+	text-decoration: none;
+}
+.menu-font:hover {
+	color: #999999;
+}
+.hamburgerblock {
+	display: none;
+}
+.burgurBtn {
+	height: 50px;
+	float: right;
+}
+.burgurBtn img {
+	padding: 10px;
+	height: 100%;
+}
+section.welcome-msg {
+	background: #dfe9fb;
+}
+section.welcome-msg .msg {
+	width: 100%;
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+	font-size: 40px;
+	font-family: cursive;
+}
+section.section2 {
+	margin-top: 15px; 
+	margin-bottom: 100px; 
+}
+section.section2 .title {
+	width:100%;
+	text-align: center;
+}
+section.section2 h1 {
+	font-size: 20px;
+	font-family: cursive;
+}
+.max-1200 {
+	width: 100%;
+	max-width:1200px;
+	text-align: center;
+	margin: 10px auto;
+}
+.contentbox {
+	background: #666666;
+	height: 150px;
+	width: 40%;
+	margin:10px;
+	display: inline-block;
+	padding: 10px;
+}
+.btn {
+	height: 40px;
+	width: 160px;
+	background: #dfe9fb;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: center;
+}
+@media only screen and (max-width: 800px) {
+	header .menublock {
+		display: none;
+	}
+	header .hamburgerblock {
+		display: block;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.contentbox{
+		width:100%;
+		max-width: 480px;
+	}
+}
