@@ -197,11 +197,12 @@ img {
   	.main-content-box {
 		width: 50%;
 		max-width: 560px;
-		height: 200px;
+		/*height: 200px;
 		margin-left: 19px;
 		margin-right: 19px;
 		background-color: #8198a6;
 		display: block;
+		------*/
 }
   img,
   .website-title,
@@ -239,11 +240,12 @@ img {
 
   	.main-content-box {
 		max-width: 45%;
-		height: 200px;
+		/*height: 200px;
 		margin-left: 19px;
 		margin-right: 19px;
 		background-color: #8198a6;
 		display: block;
+		------*/
 	}
 
   img,
@@ -288,11 +290,12 @@ img {
 
   	.main-content-box {
 		max-width: 40%;
-		height: 200px;
+		/*height: 200px;
 		margin-left: 19px;
 		margin-right: 19px;
 		background-color: #8198a6;
 		display: block;
+		-------*/
 	}
 
   img,
@@ -313,6 +316,21 @@ img {
 	.main-content-box {
 		width:400;
 	}*/
+	.wrap {
+		min-height: calc(100vh/* - 89px*/);
+	}
+
+	.container {
+		width: 95%;
+		/*max-width: 1200px;*/
+		margin: 0 auto;
+	}
+
+
+  	.website-title {
+    /*width: 240px;*/
+    margin-right: 50px;
+  	}
   	
  	.main-content-section {
  		max-width: 500px;
@@ -321,23 +339,91 @@ img {
  	}
 
   	.main-content-box {
-		width: 100vh;
+  		max-width:480px;
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
 		/*max-width: 560px;*/
-		height: 200px;
-		margin-left: 19px;
-		margin-right: 19px;
+		/*height: 200px;
+		
 		background-color: #8198a6;
 		display: block;
+		------*/
 }
   img,
   .website-title,
   .main-nav,
   .main-nav li,
-  .main-content-box, 
+  .main-content-box, /*原本寫.main-content*/ 
   .call-to-action {
     display: inline-block;
   }
 }
 
+
+
+/*Media Queries 別的-----------------------
+
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+  }
+  .wildlife {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .primary-content,
+  .secondary-content {
+    width: 100%
+    padding: 20px;
+    border-top: none;
+  }
+
+  .main-header {
+    max-height:  380px;
+    padding: 50px 25px 0;
+  }
+
+  .title {
+    font-size: 1.3rem;
+    border: none;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+  }
+  .arrow {
+    display: none;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .resorts,
+  .tips {
+    float: none;
+    width: 100%;
+  }
+  .main-footer {
+    padding: 20px 0;
+  }
+}
+*/
+
+/*@media (max-width: 960px) {
+  body {
+    background: royalblue;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: darkred;
+  }
+}*/
 
 
