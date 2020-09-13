@@ -18,12 +18,6 @@ p {
 	margin-bottom: 1.5em;
 }
 
-/*h2,
-h3,
-a {
-	color: #000000;
-}*/
-
 h1 {
 	line-height: 2em;
 }
@@ -56,22 +50,16 @@ img {
 	text-align: left;
 }
 
-/*.main-nav {     讓他靠右
-	float: right;
-}
-*/
 .main-nav li {
 	text-align: center;
-	/*background: #fff;*/
 	margin-top: 6px;
-	margin-left: 3em;    /*讓他彼此遠一點*/
+	margin-left: 3em;    /*make some space between them*/
 	margin-bottom: 6px;
 }
 
 .main-nav a {
 	font-size: .5em;
 	color: #000000;
-	/*text-transform: uppercase;*/
 }
 
 .main-nav a:hover {
@@ -80,13 +68,11 @@ img {
 
 .website-title a,
 .main-nav a {
-  /*padding: 10px 15px;*/
   display: block;
-  /*vertical-align: middle;*/ 	/*invalid*/
 }
 
 .main-nav {
-	width: 80%;/* 測試讓nav靠右*/
+	width: 80%;/* make nav align to right*/
 	text-align: right;
 }
 
@@ -97,7 +83,6 @@ img {
 
 .main-content-box {
 	width: 100%;
-	/*max-width: 600px;*/
 	height: 200px;
 	margin-left: 19px;
 	margin-right: 19px;
@@ -106,9 +91,7 @@ img {
 }
 
 .call-to-action a {
-	/*font-size: .95em;*/
 	color: #000000;
-	/*text-transform: uppercase;*/
 }
 
 .call-to-action a:hover {
@@ -123,21 +106,16 @@ img {
 	height: 60px;
 	margin-left: 3px;
 	shape-margin: 3px;
-	display:flex;  /*置中*/
-  	align-items:center;  /*置中*/
-  	/*justify-content:center;*/
-	/*background-color: #d5d5d5;*/
+	display:flex;  /*try vertical align to center*/
+  	align-items:center;  /*try vertical align to center*/
 }
 
 .main-header {
-	/*padding-top: 1.5em;
-	padding-bottom: 1.5em;*/
 	background-color: #d5d5d5;
 	height: 60px;
-	/*margin-bottom: 30px;*/
 }
 
-.nav-container { /* 測試讓nav靠右*/
+.nav-container { /* test-make nav align to right*/
 	width: 800px;
 }
 
@@ -155,7 +133,6 @@ img {
 .main-footer {
 	text-align: center;
 	padding: 2em 0;
-	/*background: #d9e4ea;*/
 }
 
 .call-to-action {
@@ -178,13 +155,11 @@ img {
 
 	.container {
 		width: 95%;
-		/*max-width: 1200px;*/
 		margin: 0 auto;
 	}
 
 
   	.website-title {
-    /*width: 240px;*/
     margin-right: 50px;
   	}
   	
@@ -197,21 +172,16 @@ img {
   	.main-content-box {
 		width: 50%;
 		max-width: 560px;
-		/*height: 200px;
-		margin-left: 19px;
-		margin-right: 19px;
-		background-color: #8198a6;
-		display: block;
-		------*/
-}
-  img,
-  .website-title,
-  .main-nav,
-  .main-nav li,
-  .main-content-box, /*原本寫.main-content*/ 
-  .call-to-action {
-    display: inline-block;
-  }
+	}
+
+	img,
+	.website-title,
+	.main-nav,
+	.main-nav li,
+	.main-content-box,  
+	.call-to-action {
+	    display: inline-block;
+	}
 }
 
 
@@ -223,12 +193,10 @@ img {
 
 	.container {
 		width: 95%;
-		/*max-width: 1200px;*/
 		margin: 0 auto;
 	}
 
 	.website-title {
-    /*width: 240px;*/
     margin-right: 50px;
   	}
 
@@ -240,23 +208,18 @@ img {
 
   	.main-content-box {
 		max-width: 45%;
-		/*height: 200px;
-		margin-left: 19px;
-		margin-right: 19px;
-		background-color: #8198a6;
-		display: block;
-		------*/
 	}
 
-  img,
-  .website-title,
-  .main-nav,
-  .main-nav li,
-  .main-content-box, /*原本寫.main-content*/ 
-  .call-to-action {
-    display: inline-block;
-  }  
+   img,
+   .website-title,
+   .main-nav,
+   .main-nav li,
+   .main-content-box,
+   .call-to-action {
+    	display: inline-block;
+    }  
 }
+
 
 @media (min-width: 500px) and (max-width: 800px) {
 	.main-nav a{
@@ -273,13 +236,11 @@ img {
 
 	.container {
 		width: 95%;
-		/*max-width: 1200px;*/
 		margin: 0 auto;
 	}
 
 	.website-title {
-    /*width: 240px;*/
-    margin-right: 50px;
+    	margin-right: 50px;
   	}
 
   	.main-content-section {
@@ -290,45 +251,29 @@ img {
 
   	.main-content-box {
 		max-width: 40%;
-		/*height: 200px;
-		margin-left: 19px;
-		margin-right: 19px;
-		background-color: #8198a6;
-		display: block;
-		-------*/
 	}
 
-  img,
-  .website-title,
-  .main-nav,
-  .main-nav li,
-  /*.hamburgerblock,*/
-  .main-content-box, /*原本寫.main-content*/ 
-  .call-to-action {
-    display: inline-block;
-  }  	
+    img,
+    .website-title,
+    .main-nav,
+    .main-nav li,
+    .main-content-box, 
+    .call-to-action {
+    	display: inline-block;
+    }  	
 }
 
 @media (max-width: 500px) {
-	/*.main-content {
-		max-width: 480px;
-	}
-	.main-content-box {
-		width:400;
-	}*/
 	.wrap {
 		min-height: calc(100vh/* - 89px*/);
 	}
 
 	.container {
 		width: 95%;
-		/*max-width: 1200px;*/
 		margin: 0 auto;
 	}
 
-
   	.website-title {
-    /*width: 240px;*/
     margin-right: 50px;
   	}
   	
@@ -343,87 +288,14 @@ img {
 		width: 100%;
 		margin-left: 0px;
 		margin-right: 0px;
-		/*max-width: 560px;*/
-		/*height: 200px;
-		
-		background-color: #8198a6;
-		display: block;
-		------*/
+	}
+
+    img,
+    .website-title,
+    .main-nav,
+    .main-nav li,
+    .main-content-box, 
+    .call-to-action {
+    	display: inline-block;
+  	}
 }
-  img,
-  .website-title,
-  .main-nav,
-  .main-nav li,
-  .main-content-box, /*原本寫.main-content*/ 
-  .call-to-action {
-    display: inline-block;
-  }
-}
-
-
-
-/*Media Queries 別的-----------------------
-
-@media (max-width: 1024px) {
-  .primary-content,
-  .secondary-content {
-    width: 90%;
-  }
-  .wildlife {
-    padding: 10% 12%;
-    margin: 50px 0 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .primary-content,
-  .secondary-content {
-    width: 100%
-    padding: 20px;
-    border-top: none;
-  }
-
-  .main-header {
-    max-height:  380px;
-    padding: 50px 25px 0;
-  }
-
-  .title {
-    font-size: 1.3rem;
-    border: none;
-  }
-  
-  h1 {
-    font-size: 5rem;
-    line-height: 1.1;
-  }
-  .arrow {
-    display: none;
-  }
-  .intro {
-    font-size: 1rem;
-  }
-  .resorts,
-  .tips {
-    float: none;
-    width: 100%;
-  }
-  .main-footer {
-    padding: 20px 0;
-  }
-}
-*/
-
-/*@media (max-width: 960px) {
-  body {
-    background: royalblue;
-  }
-}
-
-@media (max-width: 600px) {
-  body {
-    background: darkred;
-  }
-}*/
-
-
