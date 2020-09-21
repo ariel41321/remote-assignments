@@ -41,7 +41,7 @@ header {
 }
 .logo {
 	display: inline-block;
-	height: /*100*/90%;
+	height: 85%;/*revised*/
 	width: auto;
 	vertical-align: middle;
 }
