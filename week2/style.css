@@ -25,6 +25,8 @@ header {
 	width: 40%;
 	height: 50px;
 	margin:10px 0;
+	display: flex;/*test revised*/
+	align-items: center;/*test revised*/
 }
 
 .menublock, .hamburgerblock {
@@ -41,7 +43,7 @@ header {
 }
 .logo {
 	display: inline-block;
-	height: 85%;/*revised*/
+	height: 40px;/*revised*/
 	width: auto;
 	vertical-align: middle;
 }
@@ -122,7 +124,7 @@ section.welcome-msg .msg {
 	height: 180px;
 	line-height: 180px;
 	text-align: center;
-	font-size: 6vmin/*40px;*//*revised文字爆版*/
+	font-size: 6vmin;/*40px;*//*revised文字爆版*/
 /*	font-family: cursive;*/
 }
 section.section2 {
